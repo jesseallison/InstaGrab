@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		377C8B2E198C0991006055C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377C8B2D198C0991006055C3 /* Foundation.framework */; };
+		377C8B30198C0991006055C3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377C8B2F198C0991006055C3 /* CoreGraphics.framework */; };
+		377C8B32198C0991006055C3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377C8B31198C0991006055C3 /* UIKit.framework */; };
+		377C8B38198C0991006055C3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 377C8B36198C0991006055C3 /* InfoPlist.strings */; };
+		377C8B3A198C0991006055C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 377C8B39198C0991006055C3 /* main.m */; };
+		377C8B3E198C0991006055C3 /* MAGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 377C8B3D198C0991006055C3 /* MAGAppDelegate.m */; };
+		377C8B41198C0991006055C3 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 377C8B3F198C0991006055C3 /* Main_iPhone.storyboard */; };
+		377C8B44198C0991006055C3 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 377C8B42198C0991006055C3 /* Main_iPad.storyboard */; };
+		377C8B47198C0991006055C3 /* MAGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 377C8B46198C0991006055C3 /* MAGViewController.m */; };
+		377C8B49198C0991006055C3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 377C8B48198C0991006055C3 /* Images.xcassets */; };
+		377C8B50198C0992006055C3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377C8B4F198C0992006055C3 /* XCTest.framework */; };
+		377C8B51198C0992006055C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377C8B2D198C0991006055C3 /* Foundation.framework */; };
+		377C8B52198C0992006055C3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377C8B31198C0991006055C3 /* UIKit.framework */; };
+		377C8B5A198C0992006055C3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 377C8B58198C0992006055C3 /* InfoPlist.strings */; };
+		377C8B5C198C0992006055C3 /* InstaGrabTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 377C8B5B198C0992006055C3 /* InstaGrabTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		377C8B53198C0992006055C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 377C8B22198C0991006055C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 377C8B29198C0991006055C3;
+			remoteInfo = InstaGrab;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		377C8B2A198C0991006055C3 /* InstaGrab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaGrab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		377C8B2D198C0991006055C3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		377C8B2F198C0991006055C3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		377C8B31198C0991006055C3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		377C8B35198C0991006055C3 /* InstaGrab-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "InstaGrab-Info.plist"; sourceTree = "<group>"; };
+		377C8B37198C0991006055C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		377C8B39198C0991006055C3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		377C8B3B198C0991006055C3 /* InstaGrab-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "InstaGrab-Prefix.pch"; sourceTree = "<group>"; };
+		377C8B3C198C0991006055C3 /* MAGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGAppDelegate.h; sourceTree = "<group>"; };
+		377C8B3D198C0991006055C3 /* MAGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGAppDelegate.m; sourceTree = "<group>"; };
+		377C8B40198C0991006055C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		377C8B43198C0991006055C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		377C8B45198C0991006055C3 /* MAGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGViewController.h; sourceTree = "<group>"; };
+		377C8B46198C0991006055C3 /* MAGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGViewController.m; sourceTree = "<group>"; };
+		377C8B48198C0991006055C3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		377C8B4E198C0992006055C3 /* InstaGrabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstaGrabTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		377C8B4F198C0992006055C3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		377C8B57198C0992006055C3 /* InstaGrabTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "InstaGrabTests-Info.plist"; sourceTree = "<group>"; };
+		377C8B59198C0992006055C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		377C8B5B198C0992006055C3 /* InstaGrabTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InstaGrabTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		377C8B27198C0991006055C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				377C8B30198C0991006055C3 /* CoreGraphics.framework in Frameworks */,
+				377C8B32198C0991006055C3 /* UIKit.framework in Frameworks */,
+				377C8B2E198C0991006055C3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		377C8B4B198C0992006055C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				377C8B50198C0992006055C3 /* XCTest.framework in Frameworks */,
+				377C8B52198C0992006055C3 /* UIKit.framework in Frameworks */,
+				377C8B51198C0992006055C3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		377C8B21198C0991006055C3 = {
+			isa = PBXGroup;
+			children = (
+				377C8B33198C0991006055C3 /* InstaGrab */,
+				377C8B55198C0992006055C3 /* InstaGrabTests */,
+				377C8B2C198C0991006055C3 /* Frameworks */,
+				377C8B2B198C0991006055C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		377C8B2B198C0991006055C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				377C8B2A198C0991006055C3 /* InstaGrab.app */,
+				377C8B4E198C0992006055C3 /* InstaGrabTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		377C8B2C198C0991006055C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				377C8B2D198C0991006055C3 /* Foundation.framework */,
+				377C8B2F198C0991006055C3 /* CoreGraphics.framework */,
+				377C8B31198C0991006055C3 /* UIKit.framework */,
+				377C8B4F198C0992006055C3 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		377C8B33198C0991006055C3 /* InstaGrab */ = {
+			isa = PBXGroup;
+			children = (
+				377C8B3C198C0991006055C3 /* MAGAppDelegate.h */,
+				377C8B3D198C0991006055C3 /* MAGAppDelegate.m */,
+				377C8B3F198C0991006055C3 /* Main_iPhone.storyboard */,
+				377C8B42198C0991006055C3 /* Main_iPad.storyboard */,
+				377C8B45198C0991006055C3 /* MAGViewController.h */,
+				377C8B46198C0991006055C3 /* MAGViewController.m */,
+				377C8B48198C0991006055C3 /* Images.xcassets */,
+				377C8B34198C0991006055C3 /* Supporting Files */,
+			);
+			path = InstaGrab;
+			sourceTree = "<group>";
+		};
+		377C8B34198C0991006055C3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				377C8B35198C0991006055C3 /* InstaGrab-Info.plist */,
+				377C8B36198C0991006055C3 /* InfoPlist.strings */,
+				377C8B39198C0991006055C3 /* main.m */,
+				377C8B3B198C0991006055C3 /* InstaGrab-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		377C8B55198C0992006055C3 /* InstaGrabTests */ = {
+			isa = PBXGroup;
+			children = (
+				377C8B5B198C0992006055C3 /* InstaGrabTests.m */,
+				377C8B56198C0992006055C3 /* Supporting Files */,
+			);
+			path = InstaGrabTests;
+			sourceTree = "<group>";
+		};
+		377C8B56198C0992006055C3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				377C8B57198C0992006055C3 /* InstaGrabTests-Info.plist */,
+				377C8B58198C0992006055C3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		377C8B29198C0991006055C3 /* InstaGrab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 377C8B5F198C0992006055C3 /* Build configuration list for PBXNativeTarget "InstaGrab" */;
+			buildPhases = (
+				377C8B26198C0991006055C3 /* Sources */,
+				377C8B27198C0991006055C3 /* Frameworks */,
+				377C8B28198C0991006055C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InstaGrab;
+			productName = InstaGrab;
+			productReference = 377C8B2A198C0991006055C3 /* InstaGrab.app */;
+			productType = "com.apple.product-type.application";
+		};
+		377C8B4D198C0992006055C3 /* InstaGrabTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 377C8B62198C0992006055C3 /* Build configuration list for PBXNativeTarget "InstaGrabTests" */;
+			buildPhases = (
+				377C8B4A198C0992006055C3 /* Sources */,
+				377C8B4B198C0992006055C3 /* Frameworks */,
+				377C8B4C198C0992006055C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				377C8B54198C0992006055C3 /* PBXTargetDependency */,
+			);
+			name = InstaGrabTests;
+			productName = InstaGrabTests;
+			productReference = 377C8B4E198C0992006055C3 /* InstaGrabTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		377C8B22198C0991006055C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MAG;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = MAG;
+				TargetAttributes = {
+					377C8B4D198C0992006055C3 = {
+						TestTargetID = 377C8B29198C0991006055C3;
+					};
+				};
+			};
+			buildConfigurationList = 377C8B25198C0991006055C3 /* Build configuration list for PBXProject "InstaGrab" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 377C8B21198C0991006055C3;
+			productRefGroup = 377C8B2B198C0991006055C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				377C8B29198C0991006055C3 /* InstaGrab */,
+				377C8B4D198C0992006055C3 /* InstaGrabTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		377C8B28198C0991006055C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				377C8B44198C0991006055C3 /* Main_iPad.storyboard in Resources */,
+				377C8B49198C0991006055C3 /* Images.xcassets in Resources */,
+				377C8B41198C0991006055C3 /* Main_iPhone.storyboard in Resources */,
+				377C8B38198C0991006055C3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		377C8B4C198C0992006055C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				377C8B5A198C0992006055C3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		377C8B26198C0991006055C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				377C8B3E198C0991006055C3 /* MAGAppDelegate.m in Sources */,
+				377C8B47198C0991006055C3 /* MAGViewController.m in Sources */,
+				377C8B3A198C0991006055C3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		377C8B4A198C0992006055C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				377C8B5C198C0992006055C3 /* InstaGrabTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		377C8B54198C0992006055C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 377C8B29198C0991006055C3 /* InstaGrab */;
+			targetProxy = 377C8B53198C0992006055C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		377C8B36198C0991006055C3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				377C8B37198C0991006055C3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		377C8B3F198C0991006055C3 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				377C8B40198C0991006055C3 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		377C8B42198C0991006055C3 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				377C8B43198C0991006055C3 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		377C8B58198C0992006055C3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				377C8B59198C0992006055C3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		377C8B5D198C0992006055C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		377C8B5E198C0992006055C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		377C8B60198C0992006055C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InstaGrab/InstaGrab-Prefix.pch";
+				INFOPLIST_FILE = "InstaGrab/InstaGrab-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		377C8B61198C0992006055C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InstaGrab/InstaGrab-Prefix.pch";
+				INFOPLIST_FILE = "InstaGrab/InstaGrab-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		377C8B63198C0992006055C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/InstaGrab.app/InstaGrab";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InstaGrab/InstaGrab-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "InstaGrabTests/InstaGrabTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		377C8B64198C0992006055C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/InstaGrab.app/InstaGrab";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InstaGrab/InstaGrab-Prefix.pch";
+				INFOPLIST_FILE = "InstaGrabTests/InstaGrabTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		377C8B25198C0991006055C3 /* Build configuration list for PBXProject "InstaGrab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				377C8B5D198C0992006055C3 /* Debug */,
+				377C8B5E198C0992006055C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		377C8B5F198C0992006055C3 /* Build configuration list for PBXNativeTarget "InstaGrab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				377C8B60198C0992006055C3 /* Debug */,
+				377C8B61198C0992006055C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		377C8B62198C0992006055C3 /* Build configuration list for PBXNativeTarget "InstaGrabTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				377C8B63198C0992006055C3 /* Debug */,
+				377C8B64198C0992006055C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 377C8B22198C0991006055C3 /* Project object */;
+}
