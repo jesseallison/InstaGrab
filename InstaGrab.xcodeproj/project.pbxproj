@@ -22,6 +22,7 @@
 		377C8B52198C0992006055C3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377C8B31198C0991006055C3 /* UIKit.framework */; };
 		377C8B5A198C0992006055C3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 377C8B58198C0992006055C3 /* InfoPlist.strings */; };
 		377C8B5C198C0992006055C3 /* InstaGrabTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 377C8B5B198C0992006055C3 /* InstaGrabTests.m */; };
+		377C8B68198EEA25006055C3 /* InstaGrab.png in Resources */ = {isa = PBXBuildFile; fileRef = 377C8B67198EEA25006055C3 /* InstaGrab.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		377C8B57198C0992006055C3 /* InstaGrabTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "InstaGrabTests-Info.plist"; sourceTree = "<group>"; };
 		377C8B59198C0992006055C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		377C8B5B198C0992006055C3 /* InstaGrabTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InstaGrabTests.m; sourceTree = "<group>"; };
+		377C8B67198EEA25006055C3 /* InstaGrab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = InstaGrab.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +131,7 @@
 		377C8B34198C0991006055C3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				377C8B67198EEA25006055C3 /* InstaGrab.png */,
 				377C8B35198C0991006055C3 /* InstaGrab-Info.plist */,
 				377C8B36198C0991006055C3 /* InfoPlist.strings */,
 				377C8B39198C0991006055C3 /* main.m */,
@@ -232,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				377C8B68198EEA25006055C3 /* InstaGrab.png in Resources */,
 				377C8B44198C0991006055C3 /* Main_iPad.storyboard in Resources */,
 				377C8B49198C0991006055C3 /* Images.xcassets in Resources */,
 				377C8B41198C0991006055C3 /* Main_iPhone.storyboard in Resources */,
