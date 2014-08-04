@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MAGViewController : UIViewController
+@interface MAGViewController : UIViewController <UIImagePickerControllerDelegate, UINavigationControllerDelegate>
 
 @end
