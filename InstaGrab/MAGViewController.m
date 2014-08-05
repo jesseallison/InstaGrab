@@ -36,6 +36,17 @@
         controller.delegate = self;
         controller.sourceType = UIImagePickerControllerSourceTypePhotoLibrary;
     }
+    
+    if([@"takePhoto" isEqualToString:segue.identifier])
+    {
+        UIImagePickerController *controller = [[segue destinationViewController] init];
+        controller.delegate = self;
+        controller.sourceType = UIImagePickerControllerSourceTypeCamera;
+        
+        // [[segue destinationViewController] setDelegate:self];
+        // [[segue destinationViewController] setSourceType:UIImagePickerControllerSourceTypeCamera];
+        
+    }
 }
 
 - (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info

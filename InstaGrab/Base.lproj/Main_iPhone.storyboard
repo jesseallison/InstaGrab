@@ -33,12 +33,24 @@
                                     <segue destination="OFG-07-kJ7" kind="modal" identifier="choosePhoto" id="fva-td-4Iy"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tsc-vh-UQg">
+                                <rect key="frame" x="137" y="430" width="54" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Camera">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="OFG-07-kJ7" kind="modal" identifier="takePhoto" id="94w-17-7pT"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="7l2-uW-l4c" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" id="DVM-wt-peL"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="tsc-vh-UQg" secondAttribute="bottom" constant="20" id="Djs-Rv-6jc"/>
                             <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="7l2-uW-l4c" secondAttribute="bottom" constant="20" id="WI6-DD-vqV"/>
                             <constraint firstItem="cgu-Z2-efe" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="jb7-G1-Kzg"/>
+                            <constraint firstItem="tsc-vh-UQg" firstAttribute="leading" secondItem="7l2-uW-l4c" secondAttribute="trailing" constant="63" id="q2d-OF-o6t"/>
                             <constraint firstItem="cgu-Z2-efe" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="w1K-0H-PhR"/>
                             <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="cgu-Z2-efe" secondAttribute="bottom" constant="65" id="xcc-lJ-BzK"/>
                         </constraints>
@@ -78,4 +90,7 @@
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="94w-17-7pT"/>
+    </inferredMetricsTieBreakers>
 </document>
