@@ -43,7 +43,7 @@
                                     <segue destination="OFG-07-kJ7" kind="modal" identifier="takePhoto" id="94w-17-7pT"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KVJ-o3-d8R">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KVJ-o3-d8R">
                                 <rect key="frame" x="254" y="430" width="40" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Tweet">
@@ -58,6 +58,8 @@
                         <constraints>
                             <constraint firstItem="7l2-uW-l4c" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" id="DVM-wt-peL"/>
                             <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="tsc-vh-UQg" secondAttribute="bottom" constant="20" id="Djs-Rv-6jc"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="KVJ-o3-d8R" secondAttribute="bottom" constant="20" id="DwA-a8-BgU"/>
+                            <constraint firstAttribute="trailing" secondItem="KVJ-o3-d8R" secondAttribute="trailing" constant="26" id="Pvt-uI-85L"/>
                             <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="7l2-uW-l4c" secondAttribute="bottom" constant="20" id="WI6-DD-vqV"/>
                             <constraint firstItem="cgu-Z2-efe" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="jb7-G1-Kzg"/>
                             <constraint firstItem="tsc-vh-UQg" firstAttribute="leading" secondItem="7l2-uW-l4c" secondAttribute="trailing" constant="63" id="q2d-OF-o6t"/>
