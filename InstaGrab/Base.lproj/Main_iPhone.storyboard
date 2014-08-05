@@ -23,9 +23,21 @@
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="415" id="7Pm-AV-TvI"/>
                                 </constraints>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7l2-uW-l4c">
+                                <rect key="frame" x="20" y="430" width="54" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Add Pic">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="OFG-07-kJ7" kind="modal" identifier="choosePhoto" id="fva-td-4Iy"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="7l2-uW-l4c" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" id="DVM-wt-peL"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="7l2-uW-l4c" secondAttribute="bottom" constant="20" id="WI6-DD-vqV"/>
                             <constraint firstItem="cgu-Z2-efe" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="jb7-G1-Kzg"/>
                             <constraint firstItem="cgu-Z2-efe" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="w1K-0H-PhR"/>
                             <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="cgu-Z2-efe" secondAttribute="bottom" constant="65" id="xcc-lJ-BzK"/>
@@ -37,6 +49,25 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+        </scene>
+        <!--Image Picker Controller-->
+        <scene sceneID="Yey-aG-Lgr">
+            <objects>
+                <viewController id="OFG-07-kJ7" customClass="UIImagePickerController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="xeq-r5-gfC"/>
+                        <viewControllerLayoutGuide type="bottom" id="dFT-mF-ZJG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="bwW-L1-Iyu">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="key-gv-rrd"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="F2E-9X-elg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="677" y="199"/>
         </scene>
     </scenes>
     <resources>
