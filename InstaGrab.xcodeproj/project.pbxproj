@@ -23,6 +23,7 @@
 		377C8B5A198C0992006055C3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 377C8B58198C0992006055C3 /* InfoPlist.strings */; };
 		377C8B5C198C0992006055C3 /* InstaGrabTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 377C8B5B198C0992006055C3 /* InstaGrabTests.m */; };
 		377C8B68198EEA25006055C3 /* InstaGrab.png in Resources */ = {isa = PBXBuildFile; fileRef = 377C8B67198EEA25006055C3 /* InstaGrab.png */; };
+		379ADFEF1991414C005776AD /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 379ADFEE1991414C005776AD /* CoreImage.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		377C8B59198C0992006055C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		377C8B5B198C0992006055C3 /* InstaGrabTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InstaGrabTests.m; sourceTree = "<group>"; };
 		377C8B67198EEA25006055C3 /* InstaGrab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = InstaGrab.png; sourceTree = "<group>"; };
+		379ADFEE1991414C005776AD /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				379ADFEF1991414C005776AD /* CoreImage.framework in Frameworks */,
 				377C8B30198C0991006055C3 /* CoreGraphics.framework in Frameworks */,
 				377C8B32198C0991006055C3 /* UIKit.framework in Frameworks */,
 				377C8B2E198C0991006055C3 /* Foundation.framework in Frameworks */,
@@ -105,6 +108,7 @@
 		377C8B2C198C0991006055C3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				379ADFEE1991414C005776AD /* CoreImage.framework */,
 				377C8B2D198C0991006055C3 /* Foundation.framework */,
 				377C8B2F198C0991006055C3 /* CoreGraphics.framework */,
 				377C8B31198C0991006055C3 /* UIKit.framework */,
@@ -475,6 +479,7 @@
 				377C8B61198C0992006055C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		377C8B62198C0992006055C3 /* Build configuration list for PBXNativeTarget "InstaGrabTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +488,7 @@
 				377C8B64198C0992006055C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
