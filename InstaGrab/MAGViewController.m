@@ -10,6 +10,8 @@
 
 @interface MAGViewController ()
 @property (weak, nonatomic) IBOutlet UIImageView *pictureDisplay;
+@property (strong, nonatomic) UIImage *currentPic;
+- (IBAction)sendTweet:(id)sender;
 
 @end
 
@@ -62,7 +64,7 @@
     UIImage *processedPic = [UIImage imageWithCGImage:cgimg
                                                 scale:1.0
                                           orientation:[pic imageOrientation]];
-    
+    self.currentPic = processedPic;
     [self pictureDisplay].image = processedPic;
     [picker dismissViewControllerAnimated:YES completion:NULL];
     
@@ -75,6 +77,16 @@
     [picker dismissViewControllerAnimated:YES completion:NULL];
 }
 
+- (IBAction)sendTweet:(id)sender {
+    if ([SLComposeViewController isAvailableForServiceType:SLServiceTypeTwitter])
+    {
+        SLComposeViewController *tweetView = [SLComposeViewController composeViewControllerForServiceType:SLServiceTypeTwitter];
+        [tweetView setInitialText:@"cct rocks! #ios_abc"];
+        [tweetView addImage:self.currentPic];
+        [self presentViewController:tweetView animated:YES completion:NULL];
+    }
+    
+}
 @end
 
 

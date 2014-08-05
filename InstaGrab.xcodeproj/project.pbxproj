@@ -24,6 +24,7 @@
 		377C8B5C198C0992006055C3 /* InstaGrabTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 377C8B5B198C0992006055C3 /* InstaGrabTests.m */; };
 		377C8B68198EEA25006055C3 /* InstaGrab.png in Resources */ = {isa = PBXBuildFile; fileRef = 377C8B67198EEA25006055C3 /* InstaGrab.png */; };
 		379ADFEF1991414C005776AD /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 379ADFEE1991414C005776AD /* CoreImage.framework */; };
+		379ADFF319916CFF005776AD /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 379ADFF219916CFF005776AD /* Social.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		377C8B5B198C0992006055C3 /* InstaGrabTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InstaGrabTests.m; sourceTree = "<group>"; };
 		377C8B67198EEA25006055C3 /* InstaGrab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = InstaGrab.png; sourceTree = "<group>"; };
 		379ADFEE1991414C005776AD /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		379ADFF219916CFF005776AD /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				379ADFF319916CFF005776AD /* Social.framework in Frameworks */,
 				379ADFEF1991414C005776AD /* CoreImage.framework in Frameworks */,
 				377C8B30198C0991006055C3 /* CoreGraphics.framework in Frameworks */,
 				377C8B32198C0991006055C3 /* UIKit.framework in Frameworks */,
@@ -108,6 +111,7 @@
 		377C8B2C198C0991006055C3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				379ADFF219916CFF005776AD /* Social.framework */,
 				379ADFEE1991414C005776AD /* CoreImage.framework */,
 				377C8B2D198C0991006055C3 /* Foundation.framework */,
 				377C8B2F198C0991006055C3 /* CoreGraphics.framework */,

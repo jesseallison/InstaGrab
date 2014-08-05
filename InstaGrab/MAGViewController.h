@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <CoreImage/CoreImage.h>
+#import <Social/Social.h>
 
 @interface MAGViewController : UIViewController <UIImagePickerControllerDelegate, UINavigationControllerDelegate>
 
