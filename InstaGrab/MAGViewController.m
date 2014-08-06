@@ -87,11 +87,6 @@
         [tweetView addImage:self.currentPic];
         [self presentViewController:tweetView animated:YES completion:NULL];
     }
-    
-}
-
-- (IBAction)longPressTweet:(id)sender {
-    NSLog(@"Long Press FTW!");
 }
 
 @end

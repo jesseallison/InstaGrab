@@ -78,7 +78,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
                 <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.5" id="ZiF-3e-KOo">
                     <connections>
-                        <action selector="longPressTweet:" destination="vXZ-lx-hvc" id="BYs-5n-s2Z"/>
+                        <action selector="sendTweet:" destination="vXZ-lx-hvc" id="qhg-SC-YK6"/>
                     </connections>
                 </pongPressGestureRecognizer>
             </objects>
@@ -112,6 +112,6 @@
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="94w-17-7pT"/>
+        <segue reference="fva-td-4Iy"/>
     </inferredMetricsTieBreakers>
 </document>

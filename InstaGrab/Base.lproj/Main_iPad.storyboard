@@ -68,7 +68,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.5" id="6Qh-MJ-t5v">
                     <connections>
-                        <action selector="longPressTweet:" destination="BYZ-38-t0r" id="rSI-ZL-Cl8"/>
+                        <action selector="sendTweet:" destination="BYZ-38-t0r" id="0PV-4t-MOb"/>
                     </connections>
                 </pongPressGestureRecognizer>
             </objects>
@@ -91,23 +91,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rc5-a8-EqD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1233" y="-339"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="AbW-TN-FJt">
-            <objects>
-                <viewController id="8JJ-S7-gsg" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="adv-5v-XFO"/>
-                        <viewControllerLayoutGuide type="bottom" id="VW1-d2-hTn"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="EES-IE-lFE">
-                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="MpV-FM-3CQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
