@@ -13,8 +13,6 @@
 @property (strong, nonatomic) UIImage *currentPic;
 - (IBAction)sendTweet:(id)sender;
 
-- (IBAction)longPressTweet:(id)sender;
-
 @end
 
 @implementation MAGViewController
