@@ -70,8 +70,6 @@
     [self pictureDisplay].image = processedPic;
     [picker dismissViewControllerAnimated:YES completion:NULL];
     
-    
-    
 }
 
 - (void)imagePickerControllerDidCancel:(UIImagePickerController *)picker
