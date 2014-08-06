@@ -19,9 +19,13 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="InstaGrab.png" translatesAutoresizingMaskIntoConstraints="NO" id="cgu-Z2-efe">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="415"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <gestureRecognizers/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="415" id="7Pm-AV-TvI"/>
                                 </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="ZiF-3e-KOo" appends="YES" id="oUG-zE-eCk"/>
+                                </connections>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7l2-uW-l4c">
                                 <rect key="frame" x="20" y="430" width="54" height="30"/>
@@ -72,6 +76,11 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.5" id="ZiF-3e-KOo">
+                    <connections>
+                        <action selector="longPressTweet:" destination="vXZ-lx-hvc" id="BYs-5n-s2Z"/>
+                    </connections>
+                </pongPressGestureRecognizer>
             </objects>
         </scene>
         <!--Image Picker Controller-->
