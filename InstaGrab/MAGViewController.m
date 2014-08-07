@@ -54,14 +54,12 @@
 - (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info
 {
     UIImage *pic = [info valueForKey:UIImagePickerControllerOriginalImage];
-        //------- Image Processing -------//
-    CIContext *context = [CIContext contextWithOptions:nil];
-    CIImage *ciPic = [CIImage imageWithCGImage:pic.CGImage];
+    //------- Image Processing -------//
+    CIImage *ciPic = [[CIImage alloc] initWithImage:pic];
     CIFilter *filter = [CIFilter filterWithName:@"CISepiaTone" keysAndValues:@"inputImage", ciPic, @"inputIntensity", @0.8f, nil];
     CIImage *filteredPic = [filter outputImage];
-    CGImageRef cgimg = [context createCGImage:filteredPic
-                                     fromRect:[filteredPic extent]];
-    UIImage *processedPic = [UIImage imageWithCGImage:cgimg
+    
+    UIImage *processedPic = [UIImage imageWithCIImage:filteredPic
                                                 scale:1.0
                                           orientation:[pic imageOrientation]];
     self.currentPic = processedPic;
